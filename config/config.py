@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "24092943"))
-API_HASH = getenv("API_HASH", "5e8dd78f2592f39e139e3d803db522c4")
+API_ID = int(getenv("API_ID", "23496192"))
+API_HASH = getenv("API_HASH", "7978b9570950062dd32bb8b424a6410e")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5979099443:AAHzhiDM9-6N860eWNUXhZHk8Vy3TBa-Oik")
+BOT_TOKEN = getenv("BOT_TOKEN", "5578517812:AAFPeHeChYiNVhu7-h1Ovf4-4mp5uMr-L8c")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://acha:acha@cluster0.pjq3j.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ok:ok@cluster0.uooya.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -40,7 +40,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001878251628"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Muzik TR")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Melodi Muzik")
 
 # Your User ID.
 OWNER_ID = list(
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Muziks1/Dene",
+    "https://github.com/frosty3421/Muzik",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -107,7 +107,7 @@ SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "03052c5f8a324a58ad5cbb050b691d8
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "2425bf87ba1f4a1fac3ae2e70eef2d39")
 
 # Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
-VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5"))
+VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "10"))
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "30"))
@@ -138,8 +138,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BAAE3C780wlD9jAbxy9FnogwyA1HTs0ohxT8Pksi38WErQBnq2heXg9yntNikFs1kFBiz5bWZmOB1SigYlNqqabnW5-IJO9Q6zuQ0WvcoAxivei6NdzwGNg_-JXVas_a3oXhnheCfjzHc5hhtihAagaSFElODGGxqnFHEuTf73GuVT7dRccAC7ebDRPm2I9TS7FF1sk0mR_gjsF5VsuaBsj3UKokbeuPE5SgdGaWHKvAZ8Tx6tkWDD3COXYwuS5oVP1StOLLpYiAgLynirZet3FZI4Q0OamJ0cGCPodNynij14bqwVuUe9vlWCQ8IkXmsJvFxe-otL0mXuX-qixaMLjpAAAAAVqKAlMA")
-STRING2 = getenv("STRING_SESSION2", "BAALYvKe0U0DKwazJR0MtCmz1vMVBH8e8OUiLX6ZIRWp5MLDSta7-jd-kEoaPjk7JwovATX7bk3MNhRc3CQwhUF5SVdaMov-buJKAlV3URbMRjkcjlgshaFbJ-Gy-rj85CLP5N3nIt19v1GO5YGNmsBeQUiUS5Er83QAQTWT9pPjDEMA50Hhlm5_ld5pn74VBke2MNAmhBVWTGgzEEkWwVfX-Wq5NZMksMdzDpsl-SoiYLfVVf_gpIqPWZnUo6bmnN5-toLmwT4AXM2CBVtBfyxYuSaP1LUBNi-yImTDuAjYKZgAv0gv_EZGKpCdo11ByuuGXySJkz59Vr4vNAtcQzlPAAAAAWLCeMYA")
+STRING1 = getenv("STRING_SESSION", "BABDlrF1K1dKhfkJ_2WLgdsr0eGJQXFuW8QaMr389nSU5gf3Rnvhf8SgMre9mQNKwKw6t0b0armafITSKh8V_mgsnHjstWcH1LrI2pYMvhnunLhvUPmyxsFYkFBq5c9MNUTQLRjtNNhiQReKdQiVpv7DRhGek226FflzR77k8SPwqDpG9IvaNI-lF9-7n26quCQnoGOGt6EBO3ZU5tIBqC_OQTkScDpddzRvjyKkxNWLXli2V_fFCbIrwI-pS2ebKh1kCUhNH_8oCoVzNxTYC-Sq5RuXlCICrCdsCv7D2TJrDM3VAJorasZYB5jPeeNCupO-2qjuV5b1EklLRwufPqiqAAAAAU9vigIA")
+STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
