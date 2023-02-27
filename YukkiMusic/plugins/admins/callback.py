@@ -401,7 +401,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             if (duration_played - duration_to_skip) <= 10:
                 bet = seconds_to_min(duration_played)
                 return await CallbackQuery.answer(
-                    f"Bot is not able to seek due to total duration has been exceeded.\n\nCurrently played** {bet}** mins out of **{duration}** mins",
+                    f"Bot, toplam süre aşıldığı için arama yapamıyor.\n\nŞu anda oynanan** {bet}** dakika üzerinden **{duration}** dakika",
                     show_alert=True,
                 )
             to_seek = duration_played - duration_to_skip + 1
@@ -412,7 +412,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             ) <= 10:
                 bet = seconds_to_min(duration_played)
                 return await CallbackQuery.answer(
-                    f"Bot is not able to seek due to total duration has been exceeded.\n\nCurrently played** {bet}** mins out of **{duration}** mins",
+                    f"Bot , toplam süre aşıldığı için arama yapamıyor.\n\nŞu anda oynanan** {bet}** dakika üzerinden **{duration}** dakika",
                     show_alert=True,
                 )
             to_seek = duration_played + duration_to_skip + 1
@@ -440,5 +440,5 @@ async def del_back_playlist(client, CallbackQuery, _):
             db[chat_id][0]["played"] += duration_to_skip
         string = _["admin_33"].format(seconds_to_min(to_seek))
         await mystic.edit_text(
-            f"{string}\n\nChanges done by: {mention}"
+            f"{string}\n\ntarafından yapılan değişiklikler: {mention}"
         )
