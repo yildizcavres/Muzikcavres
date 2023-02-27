@@ -36,8 +36,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} {bar} {dur}",
-                callback_data="GetTimer",
+                "💬  ᴅᴇsᴛᴇᴋ ɢʀᴜʙᴜ", url="https://t.me/BotDestekTR"
             )
         ],
         [
@@ -64,8 +63,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} {bar} {dur}",
-                callback_data="GetTimer",
+                "💬  ᴅᴇsᴛᴇᴋ ɢʀᴜʙᴜ", url="https://t.me/BotDestekTR"
             )
         ],
         [
@@ -224,24 +222,23 @@ def slider_markup(
 
 ## Cpanel Markup
 
-
 def panel_markup_1(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="⏸ Pause", callback_data=f"ADMIN Pause|{chat_id}"
+                text="⏸ 𝖣𝗎𝗋𝖽𝗎𝗋", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="▶️ Resume",
+                text="▶️ 𝖣𝖾𝗏𝖺𝗆",
                 callback_data=f"ADMIN Resume|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⏯ Skip", callback_data=f"ADMIN Skip|{chat_id}"
+                text="⏯ 𝖠𝗍𝗅𝖺", callback_data=f"ADMIN Skip|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="⏹ Stop", callback_data=f"ADMIN Stop|{chat_id}"
+                text="⏹ 𝖲𝗈𝗇", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
@@ -250,7 +247,7 @@ def panel_markup_1(_, videoid, chat_id):
                 callback_data=f"Pages Back|0|{videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="🔙 Back",
+                text="🔙 Geri",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
@@ -266,20 +263,20 @@ def panel_markup_2(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🔇 Mute", callback_data=f"ADMIN Mute|{chat_id}"
+                text="🔇 𝖬𝗎𝗍𝖾", callback_data=f"ADMIN Mute|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="🔊 Unmute",
+                text="🔊 𝖴𝗇𝗆𝗎𝗍𝖾",
                 callback_data=f"ADMIN Unmute|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🔀 Shuffle",
+                text="🔀 𝖪𝖺𝗋ı𝗌̧𝗍ı𝗋",
                 callback_data=f"ADMIN Shuffle|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="🔁 Loop", callback_data=f"ADMIN Loop|{chat_id}"
+                text="🔁 𝖳𝖾𝗄𝗋𝖺𝗋𝗅𝖺", callback_data=f"ADMIN Loop|{chat_id}"
             ),
         ],
         [
@@ -288,7 +285,7 @@ def panel_markup_2(_, videoid, chat_id):
                 callback_data=f"Pages Back|1|{videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="🔙 Back",
+                text="🔙 Geri",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
@@ -304,21 +301,21 @@ def panel_markup_3(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="⏮ 10 Seconds",
+                text="⏮ 10 𝖲𝖺𝗇𝗂𝗒𝖾",
                 callback_data=f"ADMIN 1|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="⏭ 10 Seconds",
+                text="⏭ 10 𝖲𝖺𝗇𝗂𝗒𝖾",
                 callback_data=f"ADMIN 2|{chat_id}",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⏮ 30 Seconds",
+                text="⏮ 30 𝖲𝖺𝗇𝗂𝗒𝖾",
                 callback_data=f"ADMIN 3|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="⏭ 30 Seconds",
+                text="⏭ 30 𝖲𝖺𝗇𝗂𝗒𝖾",
                 callback_data=f"ADMIN 4|{chat_id}",
             ),
         ],
@@ -328,7 +325,7 @@ def panel_markup_3(_, videoid, chat_id):
                 callback_data=f"Pages Back|2|{videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="🔙 Back",
+                text="🔙 Geri",
                 callback_data=f"MainMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
