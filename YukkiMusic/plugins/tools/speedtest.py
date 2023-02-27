@@ -8,7 +8,6 @@
 # All rights reserved.
 
 import asyncio
-import speedtest
 from pyrogram import filters
 from strings import get_command
 from YukkiMusic import app
