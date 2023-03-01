@@ -72,16 +72,16 @@ SUPPORT_GROUP = getenv(
 )  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "false")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 
 # Time after which you're assistant account will leave chats automatically.
 AUTO_LEAVE_ASSISTANT_TIME = int(
-    getenv("ASSISTANT_LEAVE_TIME", "5400000")
+    getenv("ASSISTANT_LEAVE_TIME", "10000")
 )  # Remember to give value in Seconds
 
 # Time after which bot will suggest random chats about bot commands.
 AUTO_SUGGESTION_TIME = int(
-    getenv("AUTO_SUGGESTION_TIME", "5400000")
+    getenv("AUTO_SUGGESTION_TIME", "999999")
 )  # Remember to give value in Seconds
 
 # Set it True if you want to delete downloads after the music playout ends from your downloads folder
@@ -139,7 +139,7 @@ SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 STRING1 = getenv("STRING_SESSION", "BABu9awYCbRYYLoZlMeOpmn5ydm6GTdtyaEkbKBOqOI07mtPZJ1kNQcMqgqlfgc01arozWmknqwFa5-QJB4SzN5xl8ETJ5SR7pCHdCiHltRL1_nrFelLafdxsKF3RyROQVCHbFcOmmPSQI4BQgIjkYRE7RC-mA_aeMBWk3-Zwf9MigRdRyVNwWN_2YrSZ_CMjN2ELLEQoH6pAgye9NNCoixZCxIug03cQNjKfnAR9MdZ-Ts1JnaMYUwKtbTvr2d_HY9ZreQivMZpJFVpJLYEYSFaCdlZeX6L28XSJAn9VmBuEpDAe0fhIHA6A_Gyna3fTHtgXrs2iphtcrMtWVqttoLwAAAAAU9vigIA")
-STRING2 = getenv("STRING_SESSION2", None)
+STRING2 = getenv("STRING_SESSION2", "BABB3RwuPaCuY4ndnksPOkuOwkeDr3DsAtJwYP-Gn8-vwWBRcD5psr9GWJsM2f30mhPO-DMWyOtfVOb4FrLQw_N06YIFHs3rKU_YkRK9JwXYtmhEGzEkJnYsKnFnAdxpxnG4EMC7Zq0sUfQId6QcwhHeLQRytzucmrug64qnPmrOAHk7JSA-gww-a4pAHvWQsEzLQWge74RlnzQxjL6SEc4itgSCYErC8lOxaQwHXvDpvNIZ6ioph1rOGlQnfVEG931vY3YwkNKW9pszjkRQluSO78ZyrNUCJNUBzYSGYrbhz3bwplRb9j2376G29hC11awb4NcXuHhc4xubjQ3SW1MiAAAAAVpRlY0A")
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
