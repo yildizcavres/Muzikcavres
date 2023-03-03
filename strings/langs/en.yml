@@ -75,16 +75,16 @@ admin_34 : "Mevcut akış aranamadı."
 
 # Start
 start_1 : "🇹🇷 **Beni Grubunuza davet ettiğiniz için teşekkürler**.\n\n**✍🏻 {1} Aktif ve Çalışıyor**.\n\n•** Herhangi bir yardım için kanalımıza göz atın** ."
-start_2 : "✋🏻 **Merhaba** \n\n🎯 **Telegram Müzik & Video Botuyum** ...\n\n➡️ **Beni Grubunuza Eklemek İstiyorsanız Destek Grubundan Yardım İsteyin ...**"
-start_3 : "💭 **Hoş Geldiniz** {0}\n\n**📖 Lütfen bana şu yetkiyi verin BAĞLANTI İLE DAVET**\n\n**Asistan Kullanıcı Adı**:- @{1}\n**Asistan Kimliği**:- {2}"
+start_2 : "✋🏻 **Merhaba \n\n💬 Ben Bir Müzik ve Video Botuyum  ...\n🎲Beni Kullanmak İstiyorsaniz , Destek Grubundan Bizlere Ulaşın , Aksi Takdirde Bu Botu Kullanamazsınız ...**"
+start_3 : "💭 **Hoş Geldiniz** {0}\n\n**📖 Lütfen Bana BAĞLANTI İLE DAVET Yetkisi Verin .**\n\n**Asistan Adı** : @{1}\n**Asistan ID** : {2}"
 start_4 : "**Çok Şanslısınız {0}'un Değerli Sahibi [{1}] Grubunuza katıldı . . .**"
 start_5 : "**Çok Şanslısınız {0}'un Değerli Sudo Kullanıcısı [{1}] Grubunuza katıldı . . .**"
 start_6 : "❗️ **Süper Grup Gerekli** ❗️\n\nLütfen **grubunuzu** **süper gruba** dönüştürün ve sonra beni tekrar ekleyin.\n\n**Üst grup nasıl yapılır?**\n✅ Grubunuzun sohbet geçmişini oluşturun **görünür** yapın önce."
 start_7 : "**Kara Listeye Alınmış Sohbet\nSohbetiniz Bot tarafından kara listeye alındı. Sudo Kullanıcılarını [Buradan]({0}) kontrol edin .**"
 
 # Help
-help_1 : "**➡️ Gerekli Yetkiler :\n\n\n✅ Sesli Sohbet Yetkisi\n\n✅ Bağlantı İle Davet\n\n✅ Mesajları Silme Yetkisi\n\n\n⚙️ Botun Sorunsuz Ve Düzgün Çalışması İçin Bu Yetkileri Verin , ( KULLANICILARI YASAKLAMA ) Yetkisi Vermeyin .**"
-help_2 : "📝**Yardım için PM'den bana ulaşın.**"
+help_1 : "**💬 Gerekli Yetkiler :\n\n\n✅ Sesli Sohbet Yetkisi\n\n✅ Bağlantı İle Davet\n\n✅ Mesajları Silme Yetkisi\n\n\n⚙️ Botun Sorunsuz Ve Düzgün Çalışması İçin Bu Yetkileri Verin ...**"
+help_2 : "🎲 **Yardım için PM'den bana ulaşın ...**"
 
 # Settings
 setting_1 : "⚙️ **Müzik Botu Ayarları**\n\n🖇**Grup Adı :** {0}\n🔖**Grup ID :** `{1}`"
