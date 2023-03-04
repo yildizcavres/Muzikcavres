@@ -75,7 +75,7 @@ admin_34 : "Mevcut akış aranamadı."
 
 # Start
 start_1 : "🇹🇷 **Beni Grubunuza davet ettiğiniz için teşekkürler**.\n\n**✍🏻 {1} Aktif ve Çalışıyor**.\n\n•** Herhangi bir yardım için kanalımıza göz atın** ."
-start_2 : "✋🏻 **Merhaba \n\n💬 Ben Bir Müzik ve Video Botuyum  ...\n🎲Beni Kullanmak İstiyorsaniz , Destek Grubundan Bizlere Ulaşın , Aksi Takdirde Bu Botu Kullanamazsınız ...**"
+start_2 : "✋🏻 **Merhaba \n\n💬 Ben Bir Müzik ve Video Botuyum  ...\n\n🎲Beni Kullanmak İstiyorsaniz , Destek Grubundan Bizlere Ulaşın , Aksi Takdirde Bu Botu Kullanamazsınız ...**"
 start_3 : "💭 **Hoş Geldiniz** {0}\n\n**📖 Lütfen Bana BAĞLANTI İLE DAVET Yetkisi Verin .**\n\n**Asistan Adı** : @{1}\n**Asistan ID** : {2}"
 start_4 : "**Çok Şanslısınız {0}'un Değerli Sahibi [{1}] Grubunuza katıldı . . .**"
 start_5 : "**Çok Şanslısınız {0}'un Değerli Sudo Kullanıcısı [{1}] Grubunuza katıldı . . .**"
@@ -229,11 +229,10 @@ queue_4 : "⏳** Siraya eklendi #{0}**\n\n📝 **ʙᴀşʟɪᴋ :** {1}\n**⌚ 
 queue_5 : "• **Sırada sadece bir parça var, Lütfen kontrol listesine biraz daha ekleyin .**"
 
 # All Streaming Lines
-stream_1 : "▶️ **ᴏʏɴᴀᴛɪʟɪʏᴏʀ**\n\n🎯 **ᴛᴀʟᴇᴘ :** {0}\n⚙️ **ʙɪʟɢɪ : **[ ᴛɪᴋʟᴀ ]({1})"
+stream_1 : "▶️ **ᴏʏɴᴀᴛɪʟɪʏᴏʀ**\n\n🎯 **ᴛᴀʟᴇᴘ :** {0}\n⚙️ **ʙɪʟɢɪ :** [ ᴛɪᴋʟᴀ ]({1})"
 stream_2 : "▶️ **ᴏʏɴᴀᴛɪʟɪʏᴏʀ**\n\n🎯 **ᴛᴀʟᴇᴘ :** {0}"
 stream_3 : "▶️ **ᴏʏɴᴀᴛɪʟɪʏᴏʀ**\n\n**📝 ʙᴀşʟɪᴋ :** {0}\n⌚ **sᴜ̈ʀᴇ **: {1}\n🎯 **ᴛᴀʟᴇᴘ :** {2}"
 stream_4 : "▶️ **ᴏʏɴᴀᴛɪʟɪʏᴏʀ**\n\n**📝 ʙᴀşʟɪᴋ :** [{0}]({1})\n⌚ **sᴜ̈ʀᴇ **: {2}\n🎯 **ᴛᴀʟᴇᴘ :** {3}"
-
 # Inline Butto sen 
 
 CLOSE_BUTTON  : "🗑 ᴋᴀᴘᴀᴛ"
