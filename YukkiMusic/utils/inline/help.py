@@ -77,10 +77,7 @@ def private_help_panel(_):
         ],
         [
             InlineKeyboardButton(
-                "📢  𝖪𝖺𝗇𝖺𝗅", url="https://t.me/MuzikTRKanal"
-            ),
-            InlineKeyboardButton(
-                "💬  𝖣𝖾𝗌𝗍𝖾𝗄", url="https://t.me/BotDestekTR"
+                "📢  𝖪𝖺𝗇𝖺𝗅", url="https://t.me/okyanus_sohbet"
             )
         ],
     ]
