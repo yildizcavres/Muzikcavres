@@ -9,7 +9,7 @@
 
 HELP_1 = """✅ <u>𝖬𝗎̈𝗓𝗂𝗄 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋 :</u>
 
-➡️ **Şarkı & Video İndirmek İçin , @MusicVideoTRBot 'u kullanın ...**
+➡️ sahip.. @cavres3456 .. https://t.me/okyanus_sohbet
 
 » /vplay > 𝖵𝗂𝖽𝖾𝗈 𝗈𝗒𝗇𝖺𝗍 .
 » /oynat > 𝖲𝖺𝗋𝗄𝗂𝗒𝗂 𝗈𝗒𝗇𝖺𝗍 .
