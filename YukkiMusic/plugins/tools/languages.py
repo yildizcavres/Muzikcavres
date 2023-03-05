@@ -31,6 +31,46 @@ def lanuages_keyboard(_):
     )
     keyboard.row(
         InlineKeyboardButton(
+            text="🇱🇰 Sinhala",
+            callback_data=f"languages:si",
+        ),
+        InlineKeyboardButton(
+            text="🇮🇩 Indonesian",
+            callback_data=f"languages:id",
+        ),
+    )
+    keyboard.row(
+        InlineKeyboardButton(
+            text="🇮🇳 ગુજરાતી",
+            callback_data=f"languages:gu",
+        ),
+        InlineKeyboardButton(
+            text="🇮🇳 Hindi",
+            callback_data=f"languages:hi",
+        ),
+    )
+    keyboard.row(
+        InlineKeyboardButton(
+            text="🇨🇳 中文（简体",
+            callback_data=f"languages:cn",
+        ),
+        InlineKeyboardButton(
+            text="🐶 Cheems",
+            callback_data=f"languages:cheems",
+        ),
+    )
+    keyboard.row(
+        InlineKeyboardButton(
+            text="🇦🇿 Azerbaycan",
+            callback_data=f"languages:az",
+        ),
+        InlineKeyboardButton(
+            text="🇦🇪  Arabic",
+            callback_data=f"languages:ar",
+        ),
+    )
+    keyboard.row(
+        InlineKeyboardButton(
             text=_["BACK_BUTTON"],
             callback_data=f"settingsback_helper",
         ),
