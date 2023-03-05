@@ -36,7 +36,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                "💬  ᴅᴇsᴛᴇᴋ ɢʀᴜʙᴜ", url="https://t.me/BotDestekTR"
+                "💬  ᴅᴇsᴛᴇᴋ ɢʀᴜʙᴜ", url="https://t.me/okyanus_sohbet"
             )
         ],
         [
@@ -63,7 +63,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                "💬  ᴅᴇsᴛᴇᴋ ɢʀᴜʙᴜ", url="https://t.me/BotDestekTR"
+                "💬  ᴅᴇsᴛᴇᴋ ɢʀᴜʙᴜ", url="https://t.me/okyanus_sohbet"
             )
         ],
         [
