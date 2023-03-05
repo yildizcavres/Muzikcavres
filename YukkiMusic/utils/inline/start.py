@@ -28,10 +28,7 @@ def start_pannel(_):
         ],
         [
             InlineKeyboardButton(
-                "📢  ᴋᴀɴᴀʟ", url="https://t.me/MuzikTRKanal"
-            ),
-            InlineKeyboardButton(
-                "💬  ᴅᴇsᴛᴇᴋ", url="https://t.me/BotDestekTR"
+                "📢  Destek", url="https://t.me/okyanus_sohbet"
             )
         ],
     ]
@@ -132,7 +129,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        "💬  𝖣𝖾𝗌𝗍𝖾𝗄 𝖦𝗋𝗎𝖻𝗎", url="https://t.me/BotDestekTR"
+                        "💬  𝖣𝖾𝗌𝗍𝖾𝗄 𝖦𝗋𝗎𝖻𝗎", url="https://t.me/okyanus_sohbet"
                     ),
                 ]
             )
