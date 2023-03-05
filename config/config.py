@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "23496192"))
-API_HASH = getenv("API_HASH", "7978b9570950062dd32bb8b424a6410e")
+API_ID = int(getenv("API_ID", "23577553"))
+API_HASH = getenv("API_HASH", "ef6aa35b36c9fd9d3114e6ed9dc61773")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5578517812:AAFPeHeChYiNVhu7-h1Ovf4-4mp5uMr-L8c")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ali:emir@cluster0.qai6qro.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001878251628"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001834456740"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Melodi Muzik")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Okyanus Music")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6007751916").split())
+    map(int, getenv("OWNER_ID", "6028596578").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/frosty3421/Muzik",
+    "https://github.com/ayhanceel/Music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -103,8 +103,8 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 GITHUB_REPO = getenv("GITHUB_REPO", None)
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "03052c5f8a324a58ad5cbb050b691d80")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "2425bf87ba1f4a1fac3ae2e70eef2d39")
+SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
+SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
 # Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "10"))
@@ -138,8 +138,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BABu9awYCbRYYLoZlMeOpmn5ydm6GTdtyaEkbKBOqOI07mtPZJ1kNQcMqgqlfgc01arozWmknqwFa5-QJB4SzN5xl8ETJ5SR7pCHdCiHltRL1_nrFelLafdxsKF3RyROQVCHbFcOmmPSQI4BQgIjkYRE7RC-mA_aeMBWk3-Zwf9MigRdRyVNwWN_2YrSZ_CMjN2ELLEQoH6pAgye9NNCoixZCxIug03cQNjKfnAR9MdZ-Ts1JnaMYUwKtbTvr2d_HY9ZreQivMZpJFVpJLYEYSFaCdlZeX6L28XSJAn9VmBuEpDAe0fhIHA6A_Gyna3fTHtgXrs2iphtcrMtWVqttoLwAAAAAU9vigIA")
-STRING2 = getenv("STRING_SESSION2", "BABB3RwuPaCuY4ndnksPOkuOwkeDr3DsAtJwYP-Gn8-vwWBRcD5psr9GWJsM2f30mhPO-DMWyOtfVOb4FrLQw_N06YIFHs3rKU_YkRK9JwXYtmhEGzEkJnYsKnFnAdxpxnG4EMC7Zq0sUfQId6QcwhHeLQRytzucmrug64qnPmrOAHk7JSA-gww-a4pAHvWQsEzLQWge74RlnzQxjL6SEc4itgSCYErC8lOxaQwHXvDpvNIZ6ioph1rOGlQnfVEG931vY3YwkNKW9pszjkRQluSO78ZyrNUCJNUBzYSGYrbhz3bwplRb9j2376G29hC11awb4NcXuHhc4xubjQ3SW1MiAAAAAVpRlY0A")
+STRING1 = getenv("STRING_SESSION", "BQC6RFsFkKTUVewpqzwQpgPnTSur1HMWrvXFxa3mRW5iIwV8MsxVXzgFcGnTCW7QIDVS0YmxTATrDdYnJFaVmNRYTwi0cRySI1nfBazSrbryBR_3Khc_p8B4mz8dE6MGkT9H_vHoT4dhVGHd3WVqSrT8a_Z8pEHutS3V6rTuh8tBh8KM8zuxI8laPD_yGqfg2E-CCcHenBuF8nK26I0R5-N9I1p4E-4-ccbMIW0sn35PTfTZ-1toQysz_CnjoZDhK6yH99rtDS8hpcEWqhhv3UizpznDv0bQFd9B2wknGZBqr5hQwZM8mS7iDHEBWs8d9yuArSnlSfMToS-vf6jnghkCAAAAAVsqvNsA")
+STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
