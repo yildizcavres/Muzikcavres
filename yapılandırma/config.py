@@ -1,4 +1,4 @@
-#
+ş#
 # Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
 #
 # This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
@@ -17,7 +17,7 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "23577553"))
+API_ID = int(getenv("API_ID", "28085882"))
 API_HASH = getenv("API_HASH", "ef6aa35b36c9fd9d3114e6ed9dc61773")
 
 ## Get it from @Botfather in Telegram.
@@ -138,7 +138,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", "BQC6RFsFkKTUVewpqzwQpgPnTSur1HMWrvXFxa3mRW5iIwV8MsxVXzgFcGnTCW7QIDVS0YmxTATrDdYnJFaVmNRYTwi0cRySI1nfBazSrbryBR_3Khc_p8B4mz8dE6MGkT9H_vHoT4dhVGHd3WVqSrT8a_Z8pEHutS3V6rTuh8tBh8KM8zuxI8laPD_yGqfg2E-CCcHenBuF8nK26I0R5-N9I1p4E-4-ccbMIW0sn35PTfTZ-1toQysz_CnjoZDhK6yH99rtDS8hpcEWqhhv3UizpznDv0bQFd9B2wknGZBqr5hQwZM8mS7iDHEBWs8d9yuArSnlSfMToS-vf6jnghkCAAAAAVsqvNsA")
+STRING1 = getenv("STRING_SESSION", "BAAs3ERaUbM3bWyHvl-jus_woXbwaaa2pRwLmCmuXmAPUdjRhT9urbHmWdQ3ATOkkI6oq7TW3LK51lXr8jknzchUX-J6tBsmBnickWYnHsnMfv4NyTjLJwVue6zCMkwst7R5oGlkPOHFXyT6cCzqKwQ2KdzXKB_ouvdZxM46Bpyx9z6ctTKyOj4SKpPmki5T6adUQ2PhU9gq5yJimdI7OuUMgeZEW-b3KKk5JGfXYv-OyosBtIipzRn8huSKqUJc9J-BhyAsge8_51bcvZsgQY01kNoiLYLo9AmweDNchNz2sn-IWjmddHaz0Xxp7FrHtumTm3_-jNAlt5Jt_mlUdoj2AAAAAWEgXrMA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
