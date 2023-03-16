@@ -25,4 +25,3 @@ git+https://github.com/MehmetAtes21/youtub.git
 wget
 ujson
 Pillow==9.1.0
-speedtest-cli
