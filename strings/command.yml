@@ -33,8 +33,7 @@ DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
 
 # Tools
 QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying", "sira"]
-SONG_COMMAND : ["bul"]
-VSONG_COMMAND : ["vbul"]
+SONG_COMMAND : ["bul", "song"]
 LYRICS_COMMAND : ["sshmds"]
 
 
