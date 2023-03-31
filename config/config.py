@@ -21,7 +21,7 @@ API_ID = int(getenv("API_ID", "28085882"))
 API_HASH = getenv("API_HASH", "307a1d8d9d8632f31eed62436734deb8")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "6182032029:AAHtfpjo5ub5mpahgF1nsRR8TN5MP1V6Pa8")
+BOT_TOKEN = getenv("BOT_TOKEN", "6140103319:AAG7RYeLByaKx2FSVNZ-oidCELmy9AokZEI")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://acha:acha@cluster0.pjq3j.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001834456740"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001839912048"))
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Okyanus Music")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6028596578").split())
+    map(int, getenv("OWNER_ID", "6219267667").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
