@@ -9,7 +9,7 @@
 
 HELP_1 = """✅ <u>𝖬𝗎̈𝗓𝗂𝗄 𝖪𝗈𝗆𝗎𝗍𝗅𝖺𝗋 :</u>
 
-➡️ sahip.. @cavres3456 .. https://t.me/okyanus_sohbet
+➡️ sahip.. @cavres34 .. https://t.me/okyanussohbett
 
 » /vplay > 𝖵𝗂𝖽𝖾𝗈 𝗈𝗒𝗇𝖺𝗍 .
 » /oynat > 𝖲𝖺𝗋𝗄𝗂𝗒𝗂 𝗈𝗒𝗇𝖺𝗍 .
@@ -52,13 +52,13 @@ HELP_2 = """✅ <u>𝖪𝖺𝗇𝖺𝗅 𝖮𝗒𝗇𝖺𝗍𝗆𝖺 :</u>
 
 
 HELP_3 = """✅<u>**𝖪𝖺𝗇𝖺𝗅 :**</u>
-• 𝖫𝖾𝗍'𝗌 𝖦𝗈 => [𝖲𝗍𝖺𝗋 𝖡𝗈𝗍 𝖪𝖺𝗇𝖺𝗅](t.me/StarBotKanal)
+• 𝖫𝖾𝗍'𝗌 𝖦𝗈 => [)
  
 """
 
 
 HELP_4 = """✅<u>**𝖲𝖺𝗁𝗂𝗉 :**</u>
-• 𝖫𝖾𝗍'𝗌 𝖦𝗈 => [𝖲 𝖠 𝖧 𝖨 𝖯](t.me/Hayiboo)
+• 𝖫𝖾𝗍'𝗌 𝖦𝗈 => [𝖲 𝖠 𝖧 𝖨 𝖯](@cavres34)
  
 """
 HELP_5 = """** 🔰<u>Sudo Komutlar :</u>
